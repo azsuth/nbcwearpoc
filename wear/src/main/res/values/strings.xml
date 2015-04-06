@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NBCWearPOC</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_you_might_like">YouMightLikeActivity</string>
+    <string name="title_activity_home_in_time_for">HomeInTimeForActivity</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Grimm"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:text="On tonight at 7" />
+
+    <Button
+        android:id="@+id/remind_me"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Remind Me"
+        android:textColor="@color/color_black_to_white_selector"
+        android:background="@drawable/round_rectangle_blue_to_white_selector" />
+
+    <Button
+        android:id="@+id/no_thanks"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="0dp"
+        android:textColor="@color/color_white_to_black_selector"
+        android:layout_weight="1.5"
+        android:text="No, Thanks."
+        android:background="@drawable/round_rectangle_white_to_blue_selector" />
+
+</LinearLayout>
