@@ -122,15 +122,15 @@ public class MainActivity extends Activity {
 
         SpannableStringBuilder text = new SpannableStringBuilder();
         text.append("\u2014\n");
-        text.append("Grimm\n");
-        appendStyled(text, "7pm", new RelativeSizeSpan(.75f));
+        appendStyled(text, "Grimm\n");
+        appendStyled(text, "7pm", new RelativeSizeSpan(.75f), new ForegroundColorSpan(0xffbbbbbb));
         appendStyled(text, " ALL NEW", new RelativeSizeSpan(.75f), new ForegroundColorSpan(Color.RED));
         text.append("\n\u2014\n");
-        text.append("Dateline NBC\n");
-        appendStyled(text, "8pm", new RelativeSizeSpan(.75f));
+        appendStyled(text, "Dateline NBC\n");
+        appendStyled(text, "8pm", new RelativeSizeSpan(.75f), new ForegroundColorSpan(0xffbbbbbb));
         text.append("\n\u2014\n");
-        text.append("The Tonight Show Starring Jimmy Fallon\n");
-        appendStyled(text, "10:30pm", new RelativeSizeSpan(.75f));
+        appendStyled(text, "The Tonight Show Starring Jimmy Fallon\n");
+        appendStyled(text, "10:30pm", new RelativeSizeSpan(.75f), new ForegroundColorSpan(0xffbbbbbb));
         appendStyled(text, " ALL NEW", new RelativeSizeSpan(.75f), new ForegroundColorSpan(Color.RED));
 
         style.bigText(text);
